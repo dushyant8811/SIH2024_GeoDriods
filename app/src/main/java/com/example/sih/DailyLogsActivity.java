@@ -89,13 +89,13 @@ public class DailyLogsActivity extends AppCompatActivity {
             } else if (id == R.id.nav_daily_logs) {
                 // Handle daily logs item click
             }
-            else if (id == R.id.nav_workplace_locations) {
+            else if (id == R.id.nav_offsite_work) {
                 // Handle workplace locations item click
             }
-            else if (id == R.id.nav_manager_approval) {
+            else if (id == R.id.nav_leave_approval) {
                 // Handle manager approval item click
             }
-            else if (id == R.id.nav_admin_panel) {
+            else if (id == R.id.nav_support) {
                 // Handle admin panel item click
             }
 //            else if (id == R.id.nav_settings) {

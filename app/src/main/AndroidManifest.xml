@@ -36,9 +36,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HrLoginActivity" />
-        <activity android:name=".EmployeeLoginActivity" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -48,6 +45,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".DailyLogsHR"></activity>
+        <activity android:name=".HrActivity"></activity>
 
         <activity
             android:name=".DailyLogsActivity"

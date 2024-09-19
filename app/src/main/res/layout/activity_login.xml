@@ -32,21 +32,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
 
-            <!-- Employee Section -->
+            <!-- Employee Button with Image and Text -->
             <LinearLayout
+                android:id="@+id/employee_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/button_unselected"
+                android:layout_marginEnd="10dp">
 
                 <ImageView
-                    android:layout_width="175dp"
-                    android:layout_height="102dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:src="@drawable/employee"
-                    android:layout_marginEnd="10dp" />
+                    android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -57,19 +62,23 @@
                     android:layout_marginTop="8dp" />
             </LinearLayout>
 
-            <!-- HR Section -->
+            <!-- HR Button with Image and Text -->
             <LinearLayout
+                android:id="@+id/hr_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/button_unselected"
+                android:layout_marginStart="10dp">
 
                 <ImageView
-                    android:layout_width="179dp"
-                    android:layout_height="110dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:src="@drawable/manager"
-                    android:layout_marginStart="10dp" />
+                    android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -80,6 +89,7 @@
                     android:layout_marginTop="8dp" />
             </LinearLayout>
         </LinearLayout>
+
 
         <EditText
             android:layout_width="300dp"
