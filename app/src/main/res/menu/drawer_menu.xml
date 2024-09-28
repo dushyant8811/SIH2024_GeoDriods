@@ -9,7 +9,7 @@
         android:icon="@drawable/ic_capture" />
     <item
         android:id="@+id/nav_daily_logs"
-        android:title="Daily Logs"
+        android:title="Analytics"
         android:icon="@drawable/ic_daily_logs" />
     <item
         android:id="@+id/nav_offsite_work"
@@ -18,21 +18,14 @@
     <item
         android:id="@+id/nav_leave_approval"
         android:title="Leave Request"
-        android:icon="@drawable/leave" />
-    <!--    <item-->
-    <!--        android:id="@+id/nav_profile"-->
-    <!--        android:icon="@drawable/leave"-->
-    <!--        android:title="Leave" />-->
+        android:icon="@drawable/ic_calendar" />
+
     <item
         android:id="@+id/nav_support"
         android:title="Contact Support"
         android:icon="@drawable/ic_admin_panel" />
-    <!--    <item-->
-    <!--        android:id="@+id/nav_settings"-->
-    <!--        android:icon="@drawable/ic_settings"-->
-    <!--        android:title="Leave" />-->
-    <item
-        android:id="@+id/nav_logout"
-        android:icon="@drawable/ic_logout"
-        android:title="Logout" />
+<!--    <item-->
+<!--        android:id="@+id/nav_logout"-->
+<!--        android:icon="@drawable/ic_logout"-->
+<!--        android:title="Logout" />-->
 </menu>

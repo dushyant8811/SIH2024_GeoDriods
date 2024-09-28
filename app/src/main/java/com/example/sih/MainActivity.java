@@ -137,6 +137,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             intent = new Intent(this, DailyLogsActivity.class);
             startActivity(intent);
         }
+        else if (id == R.id.nav_leave_approval) {
+            // Handle the daily logs action
+            intent = new Intent(this, LeaveRequestActivity.class);
+            startActivity(intent);
+        }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }

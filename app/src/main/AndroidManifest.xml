@@ -47,6 +47,8 @@
 
         <activity android:name=".DailyLogsHR"></activity>
         <activity android:name=".HrActivity"></activity>
+        <activity android:name=".LeaveRequestActivity"></activity>
+
 
         <activity
             android:name=".DailyLogsActivity"
@@ -56,4 +58,5 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCPrTPkr-3z8QTUrSs5nWyZJMvE25W41Hw"/>
     </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
